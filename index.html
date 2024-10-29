@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Despesas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Despesas</h1>
+        <form id="expense-form">
+            <input type="text" id="description" placeholder="Descrição" required />
+            <input type="number" id="quantity" placeholder="Quantidade" min="1" required />
+            <input type="number" id="value" step="0.01" placeholder="Valor" required />
+            <select id="currency">
+                <option value="BRL">BRL</option>
+                <option value="USD">USD</option>
+            </select>
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="expense-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
