@@ -1,5 +1,5 @@
 {
-    "name": "Lista de Despesas",
+    "name": "Gestão de Despesas em Viagens",
     "short_name": "Despesas",
     "start_url": "./index.html",
     "display": "standalone",
