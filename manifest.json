@@ -1,20 +1,16 @@
 {
     "name": "Gestão de Despesas em Viagens",
-    "short_name": "Despesas",
-    "start_url": "./index.html",
-    "display": "standalone",
+    "short_name": "Despe",
+    "description": "Gestão de Despesas em Viagens",
+    "start_url": "/",
+    "theme_color": "#000000",
     "background_color": "#ffffff",
-    "description": "Um PWA simples para gerenciar despesas",
+    "display": "standalone",
     "icons": [
-        {
-            "src": "icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
-}
+      {   "src": "despesas.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }]
+  }
+  
+  
