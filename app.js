@@ -78,11 +78,11 @@ function excluirDespesa(index) {
 
 function editarDespesa(index) {
     const despesa = despesas[index];
+    excluirDespesa(index);
+
     document.getElementById('descricao').value = despesa.descricao;
     document.getElementById('quantidade').value = despesa.quantidade;
     document.getElementById('valor').value = despesa.valor;
     document.getElementById('moedaOrigem').value = despesa.moedaOrigem;
     document.getElementById('moedaDestino').value = despesa.moedaDestino;
-
-    excluirDespesa(index);
 }
